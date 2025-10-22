@@ -1,8 +1,7 @@
 import React, { useState } from "react";
+import pic from './assets/images.jpg';
 
 function Component() {
-
-    const path = './src/assets/images.jpg';
 
     // folosim setter pt modificarea pozitiei
     const [pos, setPos] = useState({ x: 100, y: 100 });
@@ -36,7 +35,7 @@ function Component() {
     
 
     return (
-        <img className = "imag" style = {stil} alt = "nu mere" src ={path} onClick = {(e) => handleClick(e)}></img>
+        <img className = "imag" style = {stil} alt = "nu mere" src = {pic} onClick = {(e) => handleClick(e)}></img>
     );
 }
 
