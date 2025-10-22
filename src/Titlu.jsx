@@ -3,7 +3,7 @@
 function Titlu() {
 
     return (
-        <h2 className = "titlu">Catch the PGP (click the image).</h2>
+        <h2 className = "titlu">Catch the Impostor (click the image).</h2>
     )
     
 }
