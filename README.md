@@ -13,4 +13,4 @@ Click the image — it moves to a random position on the screen.
 ###  Run locally
 ```bash
 npm install
-npm run de.
+npm run dev
